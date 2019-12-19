@@ -1,0 +1,24 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/blog?useUnicode=true&characterEncoding=utf-8
+    username: root
+    password: suiyuewubolan
+  jpa:
+    hibernate:
+      ddl-auto: none
+      naming:
+        # 1. 表名及字段全小写下划线分隔命名策略(默认)
+        physical-strategy: org.springframework.boot.orm.jpa.hibernate.SpringPhysicalNamingStrategy
+    show-sql: true
+
+logging:
+  level:
+    root: warn
+    com.lrm: info
+  file: log/blog-pro.log
+server:
+  port: 8081
+
+
+
