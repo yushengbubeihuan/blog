@@ -42,13 +42,17 @@
     <div class="ui container">
       <div class="ui success large  message">
         <h3>Hi,</h3>
-        <p>李仁密，欢迎登录！</p>
+        <span th:text="${session.user.nickname}">李仁密</span>
+        <span>欢迎登录！</span>
       </div>
 
       <img src="https://unsplash.it/1000/400?image=1005" alt="" class="ui rounded bordered fluid image">
     </div>
   </div>
 
+  <br>
+  <br>
+  <br>
   <br>
   <br>
 
