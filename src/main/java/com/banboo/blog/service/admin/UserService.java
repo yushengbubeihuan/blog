@@ -1,8 +1,8 @@
-package com.banboo.blog.service;
+package com.banboo.blog.service.admin;
 
-import com.banboo.blog.dao.UserDao;
+import com.banboo.blog.dao.admin.UserDao;
 import com.banboo.blog.po.User;
-import com.banboo.blog.serviceinterface.UserServiceInterface;
+import com.banboo.blog.serviceinterface.admin.UserServiceInterface;
 import com.banboo.blog.util.MD5Util;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

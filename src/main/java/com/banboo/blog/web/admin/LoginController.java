@@ -1,7 +1,7 @@
 package com.banboo.blog.web.admin;
 
 import com.banboo.blog.po.User;
-import com.banboo.blog.serviceinterface.UserServiceInterface;
+import com.banboo.blog.serviceinterface.admin.UserServiceInterface;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;

@@ -1,4 +1,4 @@
-package com.banboo.blog.dao;
+package com.banboo.blog.dao.admin;
 
 import com.banboo.blog.po.User;
 import org.springframework.data.jpa.repository.JpaRepository;

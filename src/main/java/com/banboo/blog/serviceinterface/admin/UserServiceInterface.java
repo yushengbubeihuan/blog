@@ -1,4 +1,4 @@
-package com.banboo.blog.serviceinterface;
+package com.banboo.blog.serviceinterface.admin;
 
 import com.banboo.blog.po.User;
 
